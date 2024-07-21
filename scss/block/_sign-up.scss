@@ -1,0 +1,78 @@
+#sign_body{
+    background-color: #FEAF00;
+}
+.sign_up_block{
+    width: 475px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    padding-top: 44px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 85px;
+}
+.sign_title{
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-top: 43px;
+}
+.sign_text{
+    padding-top: 9px;
+    color: rgb(108, 108, 108);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;  
+    margin-bottom: 50px;
+}
+
+.inputs__block{
+    text-align: left    ;
+}
+.sign_up_label{
+    text-align: left;
+    color: rgb(108, 108, 108);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+.sign-name, .sign-pasword{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 415px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    padding-left: 15px;
+
+    &::placeholder{
+        color: rgb(205, 205, 205);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+}
+.sign_up_btn{
+    font-family: Montserrat;
+    display: block;
+    padding-top: 14px;
+    cursor: pointer;
+    width: 415px;
+    height: 44px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background: rgb(254, 175, 0);
+    border:none;
+    color: #fff;
+}
